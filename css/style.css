@@ -21,6 +21,7 @@ body {
   position: relative;
 }
 
+/* slider content and items code start  */
 .sliderItem {
   height: 100vh;
   overflow: hidden;
@@ -100,13 +101,56 @@ img.slideBgImg {
 }
 .slideNormalTxt h3.textHead {
   color: #fff;
-  font-size: 4rem;
+  font-size: 4.5rem;
   opacity: 0.5;
   margin: 0;
 }
 
-.slideNormalTxt p{
-    color: #fff;
-    font-size: 1rem;
-    margin: 0;
-  }
+.slideNormalTxt p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+/* slider content and items code start  */
+
+/* navigation css code start  */
+.mainNavContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+li.brand a.logo {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* ham burger code start  */
+
+/* ham burger code end  */
+
+/* navigation code end  */
