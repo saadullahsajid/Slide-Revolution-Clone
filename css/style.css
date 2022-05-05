@@ -125,11 +125,12 @@ img.slideBgImg {
 
 /* navigation css code start  */
 .mainNavContainer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 55;
 }
 
 nav {
