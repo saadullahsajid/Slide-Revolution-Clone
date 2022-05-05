@@ -54,18 +54,18 @@ img.slideBgImg {
   justify-content: center;
 }
 .sliderImgContent {
-    width: 10%;
-    position: relative;
-    height: 100vh;
+  width: 10%;
+  position: relative;
+  height: 100vh;
 }
 .centerImgContainer {
-    position: absolute;
-    transform: translateX(-50%);
-    z-index: 2;
-    width: 100%;
-    margin: 0px auto;
-    bottom: 0;
-    left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 100%;
+  margin: 0px auto;
+  bottom: 0;
+  left: 50%;
 }
 
 .centerImgContainer img {
@@ -91,14 +91,14 @@ img.slideBgImg {
 }
 
 .slideNormalTxt {
-    width: 45%;
-    padding-right: 2%;
+  width: 45%;
+  padding-right: 2%;
 }
 .slideMainHeading {
-    width: 45%;
-    justify-content: flex-end;
-    display: flex;
-    padding-right: 2%;
+  width: 45%;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 2%;
 }
 
 .slideMainHeading h1 {
@@ -160,7 +160,25 @@ li.brand a.logo {
 }
 
 /* ham burger code start  */
+a.HamBurger {
+  position: relative;
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
+a.HamBurger span {
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+a.HamBurger span:nth-child(1),
+a.HamBurger span:nth-child(3) {
+  width: 75%;
+}
 /* ham burger code end  */
 
 /* navigation code end  */
